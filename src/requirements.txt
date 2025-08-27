@@ -1,0 +1,29 @@
+# Core dependencies
+numpy>=1.24.0
+pathlib2>=2.3.0
+
+# GPU-enabled PyTorch (install before other packages)
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0+cu118
+# LLM and embedding models
+ollama>=0.1.0
+sentence-transformers>=2.2.0
+accelerate>=0.20.0
+# Vector database
+chromadb>=0.4.0
+
+# PDF processing
+PyPDF2>=3.0.0
+
+# Text processing and retrieval
+nltk>=3.8.0
+rank-bm25>=0.2.2
+
+# HTTP requests
+requests>=2.31.0
+
+# Optional: For better tokenization
+spacy>=3.6.0
+
+# Optional: For improved PDF pr
